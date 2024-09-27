@@ -7,13 +7,43 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Bienvenido a mi pagina</h1>
-    <nav>
-        <ul>
-            <li><a href="#inicio">inicio</a></li>
-            <li><a href="#sobre">Sobre nosotros</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
+    <header>        
+        <h1>Bienvenido a mi pagina</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">inicio</a></li>
+                <li><a href="#sobre">Sobre nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>    
+
+    <main>
+        <section id="inicio">
+            <h2>inicio</h2>
+            <p>Hola bienvenido a mi pagina de entrenamiento de codigo</p>
+            <p>Soy un programador en aprendizaje estoy dispuesto a recibir ayuda</p>
+        </section>
+
+        <section id="Sobre">
+            <h2>Sobre nosotros</h2>
+            <p>Somos una empresa joven dispuesta a ofrecer trabajos</p>
+            <p>no importa si no tienes experencia, o si la tienes estamos dispuesto a enseñarte</p>
+            <p>Los requisitos son: (que seas mayor de 18+, que tengas bachillerato, que sepas programar, que estes dispuesto a aprender y a fortalecer tus capacidades profesionales)</p>
+        </section>
+
+        <section id="Contacto">
+            <h2>Contactos</h2>
+            <p>Puedes ponerte en contacto con nosotros a traves de nuestros formularios</p>
+            <form>
+                <label form="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <input type="submit" value="Enviar">
+            </form>
+
+        </section>
+    </main>
 </body>
 </html>
